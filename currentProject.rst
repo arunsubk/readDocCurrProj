@@ -1,7 +1,5 @@
 Attribute specific models
 #########################
-Paper/Github used as backbone
------------------------------
 
 Approach
 ~~~~~~~~
