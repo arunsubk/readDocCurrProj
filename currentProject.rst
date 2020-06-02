@@ -48,9 +48,6 @@ Approach
 
       - **Bangs** and **Blonde hair** : Found that attribute specific classification is working to give more accuracy especially if the attribute is not too disturbing. Such as hair glasses. These gave similar accuracy of 66% 
 
-.. _bangs:
-
-
         - Bangs
        
 
@@ -74,10 +71,6 @@ Approach
 
 
       - **Eye bags** and **Big nose** gave high accuracy of 81% ,wondering if it could be because the features are not as intrusive/obstructive
-
-     
-.. _eyeBags:
-
         - Eye Bags
 
         .. image:: ./myImages/proj/specificPose_eyeBags_mtcnn.png
@@ -121,5 +114,6 @@ Attempt related to Genuine-Impostor calculation:
   - Get a simiarilty score between the pairs, to now form a mapping between similarity score and actual label.
   - Create K-fold suffles of these (say for a given K)
   - Create a range of threshold values
-  - Move the threshold through the fold to get TPR/FPR and also get the thresold with best accuracy. 
+  - Move the threshold through the fold to get TPR/FPR and also get the thresold with best accuracy.
   - The above is additionally worked on by splitting the training and testing.
+
