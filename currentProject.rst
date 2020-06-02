@@ -99,21 +99,21 @@ Approach
 
 
 
-Attempt related to Genuine-Impostor calculation:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Attempt related to Genuine-Impostor calculation:
 
-- Plotted genuine impostor scores for specific features.
 
-  - Feature1 - :ref:`Eyebags <eyeBags>` ( These are obscure features, which is as good as a normal face). Accuracy is shown as **98%**
-  - Feature2 - :ref:`Bangs <bangs>` (These are prominent features, but even this the accuracy is shows as **90%**
-
-- *The accuracy numbers presented above are much better when compared to classify within a class using a classifier.*
-- Therefore wrote a python based API (using help of some github resources) to formalize a standard Genuine-Impostor code, with the core logic as follows:
-
-  - Form pairs of images with the similar/impostor label (say, 200 images pairs with 100 labels therefore)
-  - Get a simiarilty score between the pairs, to now form a mapping between similarity score and actual label.
-  - Create K-fold suffles of these (say for a given K)
-  - Create a range of threshold values
-  - Move the threshold through the fold to get TPR/FPR and also get the thresold with best accuracy.
-  - The above is additionally worked on by splitting the training and testing.
+  - Plotted genuine impostor scores for specific features.
+  
+    - Feature1 - :ref:`Eyebags <eyeBags>` ( These are obscure features, which is as good as a normal face). Accuracy is shown as **98%**
+    - Feature2 - :ref:`Bangs <bangs>` (These are prominent features, but even this the accuracy is shows as **90%**
+  
+  - *The accuracy numbers presented above are much better when compared to classify within a class using a classifier.*
+  - Therefore wrote a python based API (using help of some github resources) to formalize a standard Genuine-Impostor code, with the core logic as follows:
+  
+    - Form pairs of images with the similar/impostor label (say, 200 images pairs with 100 labels therefore)
+    - Get a simiarilty score between the pairs, to now form a mapping between similarity score and actual label.
+    - Create K-fold suffles of these (say for a given K)
+    - Create a range of threshold values
+    - Move the threshold through the fold to get TPR/FPR and also get the thresold with best accuracy.
+    - The above is additionally worked on by splitting the training and testing.
 
