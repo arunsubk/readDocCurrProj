@@ -100,7 +100,7 @@ Approach
 
 
 Attempt related to Genuine-Impostor calculation:
-------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Plotted genuine impostor scores for specific features.
 
