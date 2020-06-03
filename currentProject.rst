@@ -48,6 +48,8 @@ Approach
 
       - **Bangs** and **Blonde hair** : Found that attribute specific classification is working to give more accuracy especially if the attribute is not too disturbing. Such as hair glasses. These gave similar accuracy of 66% 
 
+.. _bangs:
+
         - Bangs
        
 
@@ -71,6 +73,9 @@ Approach
 
 
       - **Eye bags** and **Big nose** gave high accuracy of 81% ,wondering if it could be because the features are not as intrusive/obstructive
+
+.. _eyeBags:
+
         - Eye Bags
 
         .. image:: ./myImages/proj/specificPose_eyeBags_mtcnn.png
@@ -98,6 +103,8 @@ Approach
   - Tried all of the above, without finetuning, and instead by getting a fixed-length 512 size Facenet embedding, and then running classifiers using simple SVM on SK-Learn. The results there too are comparable.
 
 
+Evaluation
+~~~~~~~~~~
 
 - Attempt related to Genuine-Impostor calculation:
 
