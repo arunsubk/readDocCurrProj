@@ -124,3 +124,51 @@ Evaluation
     - Move the threshold through the fold to get TPR/FPR and also get the thresold with best accuracy.
     - The above is additionally worked on by splitting the training and testing.
 
+Attributes considered as prominent:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Following attributes are considered by the approach defined as follows:
+
+
+Below the attributes considered by CelebA dataset. I have marked the prominent features, each of which I plan to create a separate bin for, while all the non-prominent ones will fall into another bin. Some features such as hair type (bald, black, brown) I am not considering as prominent because it is cutout by the MTCNN detector
+
+- 5_o_Clock_Shadow
+- Arched_Eyebrows
+- Attractive
+- Bags_Under_Eyes
+- Bald
+- Bangs ------------->Prominent
+- Big_Lips
+- Big_Nose
+- Black_Hair
+- Blond_Hair
+- Blurry
+- Brown_Hair
+- Bushy_Eyebrows
+- Chubby
+- Double_Chin
+- Eyeglasses -------->Prominent
+- Goatee------------->Prominent
+- Gray_Hair
+- Heavy_Makeup
+- High_Cheekbones
+- Male
+- Mouth_Slightly_Open
+- Mustache----------->Proiminent
+- Narrow_Eyes
+- No_Beard
+- Oval_Face
+- Pale_Skin
+- Pointy_Nose
+- Receding_Hairline
+- Rosy_Cheeks
+- Sideburns ---------->Prominent but consusmed by Goatee..so no separate folder needed (helps in 'not' prominent binning of data)
+- Smiling   ---------->Prominent
+- Straight_Hair
+- Wavy_Hair
+- Wearing_Earrings
+- Wearing_Hat
+- Wearing_Lipstick
+- Wearing_Necklace
+- Wearing_Necktie
+- Young
