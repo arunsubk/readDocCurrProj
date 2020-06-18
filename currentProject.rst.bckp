@@ -174,67 +174,79 @@ Below the attributes considered by CelebA dataset. I have marked the prominent f
 - Young
 
 
-Experiment Jun 2020:
-~~~~~~~~~~~~~~~~~~~~
-
+Experiment JUN2020:
+-------------------
 - The objective here is to split Gallery and Probe such that for a given class and 5 attributes(*Bangs,Mustache,Goatee,Smile,Eyeglasses*):
 
   - Gallery and probe contain images **without any specific attributes** any specific attribute.
   - Gallery and probe contain images **with specific attributes**
   - Gallery **without any specific attribute** and probe **with specific attributes** 
 
+=====================================    =======================   =======================    =====================    ==============
+         State                            Genuine/Imposter Pairs    AvaialbleImage/Classes    Verification Accuracy     Threshold
+=====================================    =======================   =======================    =====================    ==============
 
-| P1 -> Probe=Gallery=No Attribute
-| P2 -> Probe=Gallery=Attribute Present
-| P3 -> Probe=Attribute, Gallery=No Attribute
-
-===============  ===============  ===================  ==================  ================  ===========  
-  Attribute          State           Genuine/Imposter   ImgCount/Classes   Verification Acc   Threshold
-===============  ===============  ===================  ==================  ================  ===========
-   Normal             P1              100/100                6197/563            0.915           1.196
-   Eyeglasses         P2              100/100                620/189             0.94            1.146
-   ..........         P3              100/100                620/189             0.93            1.43 
-   Goatee             P2              100/100                720/90              0.93            1.1098
-   ..........         P3              100/100                720/90              0.93            1.43
-   Mustache           P2              100/100                523/70              0.90            1.1099
-   ..........         P3              100/100                523/70              0.93            1.43
-   Sideburns          P2              100/100                676/80              0.93            1.1018
-   ..........         P3              100/100                676/80              0.879           1.32
-   Bangs              P2              100/100                2520/364            0.92            1.3
-   ..........         P3              100/100                2520/364            0.90            1.31
-   Smiling            P2              100/100                6993/567            0.93            1.118
-   ..........         P3              100/100                6993/567            0.879           1.188
-===============  ===============  ===================  ==================  ================  ===========
-
-- Sample image per class of each of the above:
-
-Eyeglasses
-
-  .. image:: ./myImages/proj/EyeGlasses.jpg
-     :scale: 50 %
-     :align: center
-
-Goatee
-
-  .. image:: ./myImages/proj/Goatee.jpg
-     :scale: 50 %
-     :align: center
-
-Mustache
-
-  .. image:: ./myImages/proj/Mustache.jpg
-     :scale: 50 %
-     :align: center
+Probe=Gallery=No Attribute                 100/100                        6197/563                  0.915                1.196
+=====================================    =======================   ========================   =====================    ==============
 
 
-Sideburns (Face detector obscuring the feature)
 
-  .. image:: ./myImages/proj/Sideburns.jpg
-     :scale: 50 %
-     :align: center
+Eyelglasses:
 
-Smiling
+=====================================    =======================   =======================    =====================    ==============
+         State                            Genuine/Imposter Pairs    AvaialbleImage/Classes    Verification Accuracy     Threshold
+=====================================    =======================   =======================    =====================    ==============
 
-  .. image:: ./myImages/proj/Smiling.jpg
-     :scale: 50 %
-     :align: center
+Probe=Gallery=Attribute Present            100/100                        620/189                   0.94                1.146
+Probe=Attribute/Gallery=No Attribute       100/100                    Normal=6197/Att=620           0.93                1.43 
+=====================================    =======================   ========================   =====================    ==============
+
+
+Goatee:
+
+=====================================    =======================   =======================    =====================    ==============
+         State                            Genuine/Imposter Pairs    AvaialbleImage/Classes    Verification Accuracy     Threshold
+=====================================    =======================   =======================    =====================    ==============
+Probe=Gallery=Attribute Present            100/100                        720/90                    0.93                1.1098
+Probe=Attribute/Gallery=No Attribute       100/100                    Normal=6197/Att=720           0.93                1.43 
+=====================================    =======================   ========================   =====================    ==============
+
+
+Mustache:
+
+=====================================    =======================   =======================    =====================    ==============
+         State                            Genuine/Imposter Pairs    AvaialbleImage/Classes    Verification Accuracy     Threshold
+=====================================    =======================   =======================    =====================    ==============
+Probe=Gallery=Attribute Present            100/100                        523/70                   0.90                1.1099
+Probe=Attribute/Gallery=No Attribute       100/100                    Normal=6197/Att=620           0.93                1.43 
+=====================================    =======================   ========================   =====================    ==============
+
+
+Sideburns:
+
+=====================================    =======================   =======================    =====================    ==============
+         State                            Genuine/Imposter Pairs    AvaialbleImage/Classes    Verification Accuracy     Threshold
+=====================================    =======================   =======================    =====================    ==============
+Probe=Gallery=Attribute Present            100/100                        676/80                   0.93                1.1018
+Probe=Attribute/Gallery=No Attribute       100/100                    Normal=6197/Att=676        0.8799999999999999    1.32 
+=====================================    =======================   ========================   =====================    ==============
+
+
+Bangs: 
+
+=====================================    =======================   =======================    =====================    ==============
+         State                            Genuine/Imposter Pairs    AvaialbleImage/Classes    Verification Accuracy     Threshold
+=====================================    =======================   =======================    =====================    ==============
+Probe=Gallery=Attribute Present            100/100                        2520/364                   0.92                1.3
+Probe=Attribute/Gallery=No Attribute       100/100                    Normal=6197/Att=2520           0.90                1.31 
+=====================================    =======================   ========================   =====================    ==============
+
+
+Smiling:
+
+=====================================    =======================   =======================    =====================    ==============
+         State                            Genuine/Imposter Pairs    AvaialbleImage/Classes    Verification Accuracy     Threshold
+=====================================    =======================   =======================    =====================    ==============
+Probe=Gallery=Attribute Present            100/100                        6993/567                   0.93                1.118
+Probe=Attribute/Gallery=No Attribute       100/100                    Normal=6197/Att=6993      0.8799999999999999      1.188 
+=====================================    =======================   ========================   =====================    ==============
