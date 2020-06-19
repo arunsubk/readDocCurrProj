@@ -238,3 +238,38 @@ Smiling
   .. image:: ./myImages/proj/Smiling.jpg
      :scale: 50 %
      :align: center
+
+Experiment 19 Jun 2020
+~~~~~~~~~~~~~~~~~~~~~~
+
+**Objective:** Remove "normal" images which don't have any "prominent" feature counter parts. And then increase genuine impostor pair to 200/200 instead of 100/100 and report the same results as above:
+
+1)Removal of normal: Found only the following two classes have "normal" images with no counterpart on any other "prominent" features:
+
+          |                           105
+          |                           263
+
+2)For 200/200 Genuine/Impostor pair 
+
+| P1 -> Probe=Gallery=No Attribute
+| P2 -> Probe=Gallery=Attribute Present
+| P3 -> Probe=Attribute, Gallery=No Attribute
+
+===============  ===============  ==================  ============  ===========  =========  =========  
+  Attribute          State        ImgCount/Classes    200VerifAcc   100VerifAcc   200Thres  100Thresh
+===============  ===============  ==================  ============  ===========  =========  =========
+   Normal             P1               6194/561       0.8775          0.915      1.194       1.196
+   Eyeglasses         P2               620/189        0.95            0.94       1.222       1.146
+   ..........         P3               620/189        0.8675          0.93       1.522       1.43
+   Goatee             P2               720/90         0.909           0.93       1.126       1.109
+   ..........         P3               720/90         0.9099          0.93       1.326       1.43
+   Mustache           P2               523/70         0.937           0.90       1.012       1.109
+   ..........         P3               523/70         0.925           0.93       1.191       1.43
+   Sideburns          P2               676/80         0.9125          0.93       1.119       1.108
+   ..........         P3               676/80         0.93            0.879      1.306       1.32
+   Bangs              P2               2520/364       0.932           0.92       1.168       1.3
+   ..........         P3               2520/364       0.90            0.90       1.362       1.31
+   Smiling            P2               6993/567       0.9375          0.93       1.085       1.118
+   ..........         P3               6993/567       0.9275          0.87       1.303       1.188
+===============  ===============  ==================  ============  ===========  =========  =========
+
