@@ -249,7 +249,7 @@ Experiment 19 Jun 2020
           |                           105
           |                           263
 
-2)For 200/200 Genuine/Impostor pair 
+2)For 400/200 and 200/200 Genuine/Impostor pair 
 
 | P1 -> Probe=Gallery=No Attribute
 | P2 -> Probe=Gallery=Attribute Present
@@ -257,7 +257,6 @@ Experiment 19 Jun 2020
 
 
 .. csv-table:: Results after 400 pairs.
-   :width: 10%
    :file: ./mycsvsheets/SimilarityDiff.csv
    :header-rows: 1
 
