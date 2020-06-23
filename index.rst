@@ -10,7 +10,7 @@ Attribute specific face recognition Notes/Updates
    :maxdepth: 2
    :caption: Contents:
 
-   currProj
+   currentProject
 
 Indices and tables
 ------------------
