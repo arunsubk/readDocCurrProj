@@ -255,8 +255,32 @@ Experiment 19 Jun 2020
 | P2 -> Probe=Gallery=Attribute Present
 | P3 -> Probe=Attribute, Gallery=No Attribute
 
+.. _PairsTable:
 
-.. csv-table:: Results after 400 pairs.
+.. csv-table:: Results upto 1500 pairs.
    :file: ./mycsvsheets/SimilarityDiff.csv
    :header-rows: 1
 
+Experiment 24 Jun 2020
+~~~~~~~~~~~~~~~~~~~~~~
+
+**Objectives:**
+- increase Sample size to 1500 (updated in the PairsTable_ above)
+- Analyze the **normal** to get a sense of the variations. Images below: NOTE point below: 
+  
+  - Please right-click and View Image to expand for a closer look
+  - Each row is mostly a single class. Sometimes overflowing to the next row.
+  - There is no signifcance of each image (separated by huge space); they are just 6 individual screenshots
+
+.. image:: ./myImages/proj/Normal1.png
+   :align: center
+.. image:: ./myImages/proj/Normal2.png
+   :align: center
+.. image:: ./myImages/proj/Normal3.png
+   :align: center
+.. image:: ./myImages/proj/Normal4.png
+   :align: center
+.. image:: ./myImages/proj/Normal5.png
+   :align: center
+.. image:: ./myImages/proj/Normal6.png
+   :align: center
