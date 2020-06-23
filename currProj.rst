@@ -284,3 +284,7 @@ Experiment 24 Jun 2020
    :align: center
 .. image:: ./myImages/proj/Normal6.png
    :align: center
+.. image:: ./myImages/proj/Normal7.png
+   :align: center
+.. image:: ./myImages/proj/Normal8.png
+   :align: center
