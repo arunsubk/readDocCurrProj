@@ -266,7 +266,7 @@ Experiment 24 Jun 2020
 
 **Objectives:**
 - increase Sample size to 1500 (updated in the PairsTable_ above)
-- Analyze the **normal** to get a sense of the variations. Images below: NOTE point below: 
+- Analyze the **normal** class to get a sense of the variations. Images below: NOTE point below: 
   
   - Please right-click and View Image to expand for a closer look
   - Each row is mostly a single class. Sometimes overflowing to the next row.

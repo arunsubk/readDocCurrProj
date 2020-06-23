@@ -3,14 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Attribute specific face recognition Notes/Updates
-=================================================
+Notes/Updates
+=============
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   currentProject
+   currProj
 
 Indices and tables
 ------------------
