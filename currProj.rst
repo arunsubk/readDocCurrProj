@@ -347,3 +347,44 @@ Total available classes for Eyeclasses: 189
 
 .. image:: ./myImages/proj/plot_Eyeglasses_noattr_attr.png
    :align: center
+
+
+
+25 Jun 2020: Comparative ROC with xscale for Diff Vs Same gall-probe
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- **Eyeglasses**
+
+.. image:: ./myImages/proj/DualROC_EyeGlasses.jpeg
+   :align: center
+
+
+- **Bangs**
+
+.. image:: ./myImages/proj/DualROC_Bangs.jpeg
+   :align: center
+
+
+- **Smiling**
+
+.. image:: ./myImages/proj/DualROC_Smiling.jpeg
+   :align: center
+
+
+- **Goatee**
+
+.. image:: ./myImages/proj/DualROC_Goatee.jpeg
+   :align: center
+
+
+- **Mustache**
+
+.. image:: ./myImages/proj/DualROC_Mustache.jpeg
+   :align: center
+
+
+- **Sideburns**
+
+.. image:: ./myImages/proj/DualROC_Sideburns.jpeg
+   :align: center
+
