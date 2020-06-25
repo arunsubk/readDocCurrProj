@@ -294,14 +294,28 @@ Experiment 24 Jun 2020
 
 - Classes picked up by the random samples, for both probe and gallery having attribute
 
+Total available classes for Bangs: 364 
+
 .. image:: ./myImages/proj/plot_Bangs_both_attr.png
    :align: center
+
+Total available classes for Goatee: 90 
+
 .. image:: ./myImages/proj/plot_Goatee_both_attr.png
    :align: center
+
+Total available classes for Mustache: 70 
+
 .. image:: ./myImages/proj/plot_Mustache_both_attr.png
    :align: center
+
+Total available classes for Sideburns: 80
+
 .. image:: ./myImages/proj/plot_Sideburns_both_attr.png
    :align: center
+
+Total available classes for Eyeclasses: 189
+
 .. image:: ./myImages/proj/plot_Eyeglasses_both_attr.png
    :align: center
 
@@ -309,13 +323,27 @@ Experiment 24 Jun 2020
 - Classes picked by random samples, for probe having attr and gallery not having attr
 
 
+Total available classes for Bangs: 364 
+
 .. image:: ./myImages/proj/plot_Bangs_noattr_attr.png
    :align: center
+
+Total available classes for Goatee: 90 
+
 .. image:: ./myImages/proj/plot_Goatee_noattr_attr.png
    :align: center
+
+Total available classes for Mustache: 70 
+
 .. image:: ./myImages/proj/plot_Mustache_noattr_attr.png
    :align: center
+
+Total available classes for Sideburns: 80
+
 .. image:: ./myImages/proj/plot_Sideburns_noattr_attr.png
    :align: center
+
+Total available classes for Eyeclasses: 189
+
 .. image:: ./myImages/proj/plot_Eyeglasses_noattr_attr.png
    :align: center
