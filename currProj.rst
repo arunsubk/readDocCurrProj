@@ -288,3 +288,34 @@ Experiment 24 Jun 2020
    :align: center
 .. image:: ./myImages/proj/Normal8.png
    :align: center
+
+25 Jun 2020: Updated sampler class distribution
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Classes picked up by the random samples, for both probe and gallery having attribute
+
+.. image:: ./myImages/proj/plot_Bangs_both_attr.png
+   :align: center
+.. image:: ./myImages/proj/plot_Goatee_both_attr.png
+   :align: center
+.. image:: ./myImages/proj/plot_Mustache_both_attr.png
+   :align: center
+.. image:: ./myImages/proj/plot_Sideburns_both_attr.png
+   :align: center
+.. image:: ./myImages/proj/plot_Eyeglasses_both_attr.png
+   :align: center
+
+
+- Classes picked by random samples, for probe having attr and gallery not having attr
+
+
+.. image:: ./myImages/proj/plot_Bangs_noattr_attr.png
+   :align: center
+.. image:: ./myImages/proj/plot_Goatee_noattr_attr.png
+   :align: center
+.. image:: ./myImages/proj/plot_Mustache_noattr_attr.png
+   :align: center
+.. image:: ./myImages/proj/plot_Sideburns_noattr_attr.png
+   :align: center
+.. image:: ./myImages/proj/plot_Eyeglasses_noattr_attr.png
+   :align: center
