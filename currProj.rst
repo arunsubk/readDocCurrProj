@@ -353,38 +353,69 @@ Total available classes for Eyeclasses: 189
 25 Jun 2020: Comparative ROC with xscale for Diff Vs Same gall-probe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- **Eyeglasses**
+- **Eyeglasses** (Left graph is scaled)
 
-.. image:: ./myImages/proj/DualROC_EyeGlasses.jpeg
-   :align: center
+|pic1|  |pic2|
 
+.. |pic1| image:: ./myImages/proj/DualROC_EyeGlasses.jpeg
+   :width: 45%
 
-- **Bangs**
-
-.. image:: ./myImages/proj/DualROC_Bangs.jpeg
-   :align: center
-
-
-- **Smiling**
-
-.. image:: ./myImages/proj/DualROC_Smiling.jpeg
-   :align: center
+.. |pic2| image:: ./myImages/proj/NoScale_DualROC_EyeGlasses.jpeg
+   :width: 45%
 
 
-- **Goatee**
 
-.. image:: ./myImages/proj/DualROC_Goatee.jpeg
-   :align: center
+- **Bangs** (Left graph is scaled)
+
+|pic10|  |pic20|
+
+.. |pic10| image:: ./myImages/proj/DualROC_Bangs.jpeg
+   :width: 45%
+
+.. |pic20| image:: ./myImages/proj/NoScale_DualROC_Bangs.jpeg
+   :width: 45%
 
 
-- **Mustache**
+- **Smiling** (Left graph is scaled)
 
-.. image:: ./myImages/proj/DualROC_Mustache.jpeg
-   :align: center
+|pic11|  |pic21|
+
+.. |pic11| image:: ./myImages/proj/DualROC_Smiling.jpeg
+   :width: 45%
+
+.. |pic21| image:: ./myImages/proj/NoScale_DualROC_Smiling.jpeg
+   :width: 45%
 
 
-- **Sideburns**
+- **Goatee** (Left graph is scaled)
 
-.. image:: ./myImages/proj/DualROC_Sideburns.jpeg
-   :align: center
+|pic12|  |pic22|
+
+.. |pic12| image:: ./myImages/proj/DualROC_Goatee.jpeg
+   :width: 45%
+
+.. |pic22| image:: ./myImages/proj/NoScale_DualROC_Goatee.jpeg
+   :width: 45%
+
+
+- **Mustache** (Left graph is scaled)
+
+|pic13|  |pic23|
+
+.. |pic13| image:: ./myImages/proj/DualROC_Mustache.jpeg
+   :width: 45%
+
+.. |pic23| image:: ./myImages/proj/NoScale_DualROC_Mustache.jpeg
+   :width: 45%
+
+
+- **Sideburns** (Left graph is scaled)
+
+|pic14|  |pic24|
+
+.. |pic14| image:: ./myImages/proj/DualROC_Sideburns.jpeg
+   :width: 45%
+
+.. |pic24| image:: ./myImages/proj/NoScale_DualROC_Sideburns.jpeg
+   :width: 45%
 
