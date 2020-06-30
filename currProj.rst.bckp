@@ -296,57 +296,61 @@ Experiment 24 Jun 2020
 
 Total available classes for Bangs: 364 
 
-.. |att_class_count1| image:: ./myImages/proj/plot_Bangs_both_attr.png
-   :width: 45%
+.. image:: ./myImages/proj/plot_Bangs_both_attr.png
+   :align: center
 
 Total available classes for Goatee: 90 
 
-.. |att_class_count2| image:: ./myImages/proj/plot_Goatee_both_attr.png
-   :width: 45%
+.. image:: ./myImages/proj/plot_Goatee_both_attr.png
+   :align: center
 
 Total available classes for Mustache: 70 
 
-.. |att_class_count3| image:: ./myImages/proj/plot_Mustache_both_attr.png
-   :width: 45%
+.. image:: ./myImages/proj/plot_Mustache_both_attr.png
+   :align: center
 
 Total available classes for Sideburns: 80
 
-.. |att_class_count4| image:: ./myImages/proj/plot_Sideburns_both_attr.png
-   :width: 45%
+.. image:: ./myImages/proj/plot_Sideburns_both_attr.png
+   :align: center
 
 Total available classes for Eyeclasses: 189
 
-.. |att_class_count5| image:: ./myImages/proj/plot_Eyeglasses_both_attr.png
-   :width: 45%
+.. image:: ./myImages/proj/plot_Eyeglasses_both_attr.png
+   :align: center
 
-|att_class_count1| |att_class_count2| |att_class_count3| |att_class_count4| |att_class_count5| 
 
 - Classes picked by random samples, for probe having attr and gallery not having attr
 
 
-
-
-.. |class_count1| image:: ./myImages/proj/plot_Bangs_noattr_attr.png
-   :width: 45%
-
-
-.. |class_count2| image:: ./myImages/proj/plot_Goatee_noattr_attr.png
-   :width: 45%
-
-
-.. |class_count3| image:: ./myImages/proj/plot_Mustache_noattr_attr.png
-   :width: 45%
-
-
-.. |class_count4| image:: ./myImages/proj/plot_Sideburns_noattr_attr.png
-   :width: 45%
-
-
-.. |class_count5| image:: ./myImages/proj/plot_Eyeglasses_noattr_attr.png
-   :width: 45%
-
+Total available classes for Bangs: 364 
 
 |class_count1| |class_count2| |class_count3| |class_count4| |class_count5| 
+
+.. |class_count1| image:: ./myImages/proj/plot_Bangs_noattr_attr.png
+   :align: center
+
+Total available classes for Goatee: 90 
+
+.. |class_count2| image:: ./myImages/proj/plot_Goatee_noattr_attr.png
+   :align: center
+
+Total available classes for Mustache: 70 
+
+.. |class_count3| image:: ./myImages/proj/plot_Mustache_noattr_attr.png
+   :align: center
+
+Total available classes for Sideburns: 80
+
+.. |class_count4| image:: ./myImages/proj/plot_Sideburns_noattr_attr.png
+   :align: center
+
+Total available classes for Eyeclasses: 189
+
+.. |class_count5| image:: ./myImages/proj/plot_Eyeglasses_noattr_attr.png
+   :align: center
+
+
 
 25 Jun 2020: Comparative ROC with xscale for Diff Vs Same gall-probe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -416,5 +420,4 @@ Total available classes for Eyeclasses: 189
 
 .. |pic24| image:: ./myImages/proj/NoScale_DualROC_Sideburns.jpeg
    :width: 45%
-
 
