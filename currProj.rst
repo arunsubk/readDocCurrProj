@@ -418,3 +418,29 @@ Total available classes for Eyeclasses: 189
    :width: 45%
 
 
+30 JUN 2020: Attribute detector confidence histogram
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+| The x-axis below shows the "confidence" value (not-normalized) 
+| The y-value shows the number of images displaying that binned confidence
+| **Please click on the images to enlarge**
+
+|ad1| |ad2| |ad3| |ad4| |ad5| |ad6|
+
+.. |ad1| image:: ./myImages/proj/AD_EyeglasseshistOnes.png
+   :width: 45%
+
+.. |ad2| image:: ./myImages/proj/AD_SmilinghistOnes.png
+   :width: 45%
+
+.. |ad3| image:: ./myImages/proj/AD_BangshistOnes.png
+   :width: 45%
+
+.. |ad4| image:: ./myImages/proj/AD_GoateehistOnes.png
+   :width: 45%
+
+.. |ad5| image:: ./myImages/proj/AD_SideburnshistOnes.png
+   :width: 45%
+
+.. |ad6| image:: ./myImages/proj/AD_MustachehistOnes.png
+   :width: 45%
