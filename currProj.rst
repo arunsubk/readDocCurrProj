@@ -444,3 +444,43 @@ Total available classes for Eyeclasses: 189
 
 .. |ad6| image:: ./myImages/proj/AD_MustachehistOnes.png
    :width: 45%
+
+4 JUL 2020: Images showing low confidence and high confidence for "Bangs" feature
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+High confidence images:
+
+|bconf1| |bconf2| |bconf3| |bconf4| 
+
+Low confidence images
+
+|bconf5| |bconf6| 
+
+
+.. |bconf1| image:: ./myImages/proj/bangs_confidence/high_out_0.png
+   :width: 45%
+
+.. |bconf2| image:: ./myImages/proj/bangs_confidence/high_out_1.png
+   :width: 45%
+
+.. |bconf3| image:: ./myImages/proj/bangs_confidence/high_out_2.png
+   :width: 45%
+
+.. |bconf4| image:: ./myImages/proj/bangs_confidence/high_out_3.png
+   :width: 45%
+
+.. |bconf5| image:: ./myImages/proj/bangs_confidence/low_out_0.png
+   :width: 45%
+
+.. |bconf6| image:: ./myImages/proj/bangs_confidence/low_out_1.png
+   :width: 45%
+
+Actions:
+
+- Display images for qualitative
+- check the ROC curve range
+- Plot threshold of confidence curve with high granularity on the same graph.
+- Get all images, and create a gallery of the "doubtfuls"
+- Get a head post estimator and plot the graph of pose variation for images in probe and gallery in P1,P2,P3
+
+
