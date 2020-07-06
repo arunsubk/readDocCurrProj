@@ -427,22 +427,22 @@ Total available classes for Eyeclasses: 189
 
 |ad1| |ad2| |ad3| |ad4| |ad5| |ad6|
 
-.. |ad1| image:: ./myImages/proj/AD_EyeglasseshistOnes.png
+.. |ad1| image:: ./myImages/proj/Eyeglasses_sns_histOnes.png
    :width: 45%
 
-.. |ad2| image:: ./myImages/proj/AD_SmilinghistOnes.png
+.. |ad2| image:: ./myImages/proj/Smiling_sns_histOnes.png
    :width: 45%
 
-.. |ad3| image:: ./myImages/proj/AD_BangshistOnes.png
+.. |ad3| image:: ./myImages/proj/Bangs_sns_histOnes.png
    :width: 45%
 
-.. |ad4| image:: ./myImages/proj/AD_GoateehistOnes.png
+.. |ad4| image:: ./myImages/proj/Goatee_sns_histOnes.png
    :width: 45%
 
-.. |ad5| image:: ./myImages/proj/AD_SideburnshistOnes.png
+.. |ad5| image:: ./myImages/proj/Sideburns_sns_histOnes.png
    :width: 45%
 
-.. |ad6| image:: ./myImages/proj/AD_MustachehistOnes.png
+.. |ad6| image:: ./myImages/proj/Mustache_sns_histOnes.png
    :width: 45%
 
 4 JUL 2020: Images showing low confidence and high confidence for "Bangs" feature
