@@ -422,7 +422,7 @@ Total available classes for Eyeclasses: 189
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 | The x-axis below shows the "confidence" value (not-normalized) 
-| The y-value shows the number of images displaying that binned confidence
+| The y-value shows the normalized number of images displaying that binned confidence
 | **Please click on the images to enlarge**
 
 |ad1| |ad2| |ad3| |ad4| |ad5| |ad6|
