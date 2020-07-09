@@ -425,25 +425,29 @@ Total available classes for Eyeclasses: 189
 | The y-value shows the normalized number of images displaying that binned confidence
 | **Please click on the images to enlarge**
 
-|ad1| |ad2| |ad3| |ad4| |ad5| |ad6|
 
-.. |ad1| image:: ./myImages/proj/Eyeglasses_sns_histOnes.png
+The following plots are a second attempt; the approach is, for a given attribute, get all the confidence values where the label is 0, and confidence values where label is 1, and plot those confidence scored. The code is simplified too
+
+|adb1| |adb2| |adb3| |adb4| |adb5| |adb6|
+
+.. |adb1| image:: ./myImages/proj/SampleCount_Eyeglasses_sns_histOnes.png
    :width: 45%
 
-.. |ad2| image:: ./myImages/proj/Smiling_sns_histOnes.png
+.. |adb2| image:: ./myImages/proj/SampleCount_Smiling_sns_histOnes.png
    :width: 45%
 
-.. |ad3| image:: ./myImages/proj/Bangs_sns_histOnes.png
+.. |adb3| image:: ./myImages/proj/SampleCount_Bangs_sns_histOnes.png
    :width: 45%
 
-.. |ad4| image:: ./myImages/proj/Goatee_sns_histOnes.png
+.. |adb4| image:: ./myImages/proj/SampleCount_Goatee_sns_histOnes.png
    :width: 45%
 
-.. |ad5| image:: ./myImages/proj/Sideburns_sns_histOnes.png
+.. |adb5| image:: ./myImages/proj/SampleCount_Sideburns_sns_histOnes.png
    :width: 45%
 
-.. |ad6| image:: ./myImages/proj/Mustache_sns_histOnes.png
+.. |adb6| image:: ./myImages/proj/SampleCount_Mustache_sns_histOnes.png
    :width: 45%
+
 
 4 JUL 2020: Images showing low confidence and high confidence for "Bangs" feature
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
