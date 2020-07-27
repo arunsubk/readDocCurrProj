@@ -360,6 +360,13 @@ Total available classes for Eyeclasses: 189
 
 25 Jun 2020: Comparative ROC with xscale for Diff Vs Same gall-probe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This location has all the images used to craw the analysis below; about prominent 517 samples
+(base) arun.subramanian@node01:/scratch/arunScratch/person_recognition/FaceAttribute/dataset/splitFolderBasedOnFeat/probeGalldiffImages$ 
+
+
+Images are from the following location:
+(base) arun.subramanian@node01:/scratch/arunScratch/person_recognition/FaceAttribute/dataset/splitFolderBasedOnFeat/biometrics_scores$
+
 
 - **Eyeglasses** (Left graph is scaled)
 
@@ -438,6 +445,13 @@ Total available classes for Eyeclasses: 189
 
 The following plots are a second attempt; the approach is, for a given attribute, get all the confidence values where the label is 0, and confidence values where label is 1, and plot those confidence scored. The code is simplified too
 
+The code/images present in image names of form Eyeglasses_sns_histOnes.png at the location: **/home/arun.subramanian/ArunFolderBIOSID/faceAttention/faceAttributeClassification/face-attribute-prediction/confidencePlot/images**
+
+Files used: 
+Location: **/home/arun.subramanian/ArunFolderBIOSID/faceAttention/faceAttributeClassification/face-attribute-prediction/confidencePlot**
+- a1_amazingCovertPalatable.py
+- a2_readingFromArray_and_all_analysis.py
+
 |adb1| |adb2| |adb3| |adb4| |adb5| |adb6|
 
 .. |adb1| image:: ./myImages/proj/SampleCount_Eyeglasses_sns_histOnes.png
@@ -461,6 +475,8 @@ The following plots are a second attempt; the approach is, for a given attribute
 
 4 JUL 2020: Images showing low confidence and high confidence for "Bangs" feature
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+DONE: The gallery available in /home/arun.subramanian/ArunFolderBIOSID/faceAttention/faceAttributeClassification/face-attribute-prediction/confidencePlot/images/confidence on biosid server
 
 High confidence images:
 
@@ -496,6 +512,7 @@ Actions:
 - Plot threshold of confidence curve with high granularity on the same graph.
 - Get all images, and create a gallery of the "doubtfuls"
 
+DONE: The gallery available in /home/arun.subramanian/ArunFolderBIOSID/faceAttention/faceAttributeClassification/face-attribute-prediction/confidencePlot/images/doubtfuls on biosid server
 
 - Get a head post estimator and plot the graph of pose variation for images in probe and gallery in P1,P2,P3
 
